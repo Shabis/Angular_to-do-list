@@ -1,3 +1,8 @@
 h1 {
   color: #000000;
 }
+
+.filter {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
