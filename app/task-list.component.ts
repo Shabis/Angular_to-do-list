@@ -10,7 +10,7 @@ import { Task } from './task.model';
       <option value="notDone" selected="selected">Show Not Done</option>
     </select>
     <div *ngFor="let currentTask of childTaskList | completeness:selectedCompleteness">
-      <task-display [task]="currentTawsk"></task-display>
+      <task-display [task]="currentTask"></task-display>
       <button (click)="editButtonHasBeenClicked(currentTask)">Edit</button>
     </div>
   `
